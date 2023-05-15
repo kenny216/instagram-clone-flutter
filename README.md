@@ -29,7 +29,6 @@ After cloning this repository, migrate to ```instagram-flutter-clone``` folder. 
 Then run the following commands to run your app:
 ```bash
   flutter pub get
-  open -a simulator (to get iOS Simulator)
   flutter run
   flutter run -d chrome --web-renderer html (to see the best output)
 ```
