@@ -1,16 +1,48 @@
-# instagram_flutter
+# Instagram Clone
 
-A new Flutter project.
+A completely Responsive Instagram App- Works on Android & Web! 
 
-## Getting Started
+## Features
+- Responsive Instagram UI
+- Email & Password Authentication
+- Share Posts with Caption
+- Display Posts with Caption
+- Like & Comment on Posts
+- Search Users
+- Follow Users
+- Display User Posts, Followers & Following
+- EVERYTHING REAL TIME
+- Sign Out
 
-This project is a starting point for a Flutter application.
+## Images
+![instagram login](https://github.com/kenny216/instagram-clone-flutter/assets/127630486/21594150-272d-4132-8bd7-99c1acbb5582)
 
-A few resources to get you started if this is your first Flutter project:
+![instagram clone](https://github.com/kenny216/instagram-clone-flutter/assets/127630486/e43cfb8e-c6d7-4fbf-9c43-2636ad33158b)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+After cloning this repository, migrate to ```instagram-flutter-clone``` folder. Then, follow the following steps:
+- Create Firebase Project
+- Enable Authentication
+- Make Firestore Rules
+- Create Android, iOS & Web Apps
+- Take Web FirebaseOptions and put it in main function in main.dart file replacing my keys (My keys wont work as I deleted my project)
+Then run the following commands to run your app:
+```bash
+  flutter pub get
+  open -a simulator (to get iOS Simulator)
+  flutter run
+  flutter run -d chrome --web-renderer html (to see the best output)
+```
+
+## Tech Used
+**Server**: Firebase Auth, Firebase Storage, Firebase Firestore
+
+**Client**: Flutter, Provider
+    
+## Feedback
+
+If you have any feedback, please reach out to me at namanrivaan@gmail.com    
+              
+
+![screens](https://user-images.githubusercontent.com/79010097/214765493-104c218b-644a-4c8e-bb0e-64b59416ac11.jpg)
